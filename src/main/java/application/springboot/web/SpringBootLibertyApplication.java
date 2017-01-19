@@ -19,8 +19,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.autoconfigure.MessageSourceAutoConfiguration;
 import org.springframework.boot.context.web.SpringBootServletInitializer;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication(exclude = MessageSourceAutoConfiguration.class)
+@EnableEurekaClient
 public class SpringBootLibertyApplication extends SpringBootServletInitializer {
 
     @Override
