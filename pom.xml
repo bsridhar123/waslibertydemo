@@ -53,7 +53,6 @@
         <url>http://liberty-app-accelerator.wasdev.developer.ibm.com/start/api/v1/repo</url>
         </repository>
     </repositories>
-
     <profiles>
         
         <profile>
@@ -67,7 +66,7 @@
     </profiles>
 
     <dependencies>
-	<!--     
+
     <dependency>
 
             <groupId>net.wasdev.wlp.starters.springbootweb</groupId>
@@ -89,12 +88,12 @@
             <version>0.0.3</version>
             <type>pom</type>
             <scope>compile</scope>
-        </dependency>-->
-			<dependency>
+        </dependency>
+		<!--	<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-eureka</artifactId>
 		</dependency>
-		<!--<dependency>
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 			<exclusions>
@@ -105,14 +104,14 @@
 			</exclusions>
 		</dependency>-->
     </dependencies>
-    <dependencyManagement>
+   <!-- <dependencyManagement>
 		<dependencies>
 			<dependency>
 			<!-- 	<groupId>org.springframework.cloud</groupId>
 				<artifactId>spring-cloud-dependencies</artifactId>
 				<version>Camden.SR2</version>
 				<type>pom</type>
-				<scope>import</scope> -->
+				<scope>import</scope> 
 				<groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-netflix</artifactId>
             <version>1.2.4.RELEASE</version>
@@ -120,7 +119,7 @@
             <scope>import</scope>
 			</dependency>
 		</dependencies>
-	</dependencyManagement>
+	</dependencyManagement>-->
     <build>
         <plugins>
             <plugin>
@@ -220,4 +219,5 @@
           
         </plugins>
     </build>
+	  
 </project>
