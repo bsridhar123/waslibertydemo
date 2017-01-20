@@ -1,0 +1,10 @@
+
+ Index  Count  Time of first Occurrence    Time of last Occurrence     Exception SourceId ProbeId
+------+------+---------------------------+---------------------------+---------------------------
+     0      1     1/20/17 6:22:26:380 UTC     1/20/17 6:22:26:380 UTC com.ibm.wsspi.adaptable.module.UnableToAdaptException com.ibm.ws.webcontainer.osgi.WebContainer createModuleMetaData
+                                                                            - /home/sridharb_in_77/waslibertydemo/target/wlp/usr/servers/LibertyProjectServer/logs/ffdc/ffdc_17.01.20_06.22.26.0.log
+     1      1     1/20/17 6:22:26:521 UTC     1/20/17 6:22:26:521 UTC com.ibm.ws.container.service.metadata.MetaDataException com.ibm.ws.app.manager.module.internal.DeployedAppInfoBase 777
+                                                                            - /home/sridharb_in_77/waslibertydemo/target/wlp/usr/servers/LibertyProjectServer/logs/ffdc/ffdc_17.01.20_06.22.26.1.log
+     2      1     1/20/17 6:39:02:384 UTC     1/20/17 6:39:02:384 UTC java.security.PrivilegedActionException com.ibm.ws.config.admin.internal.ConfigurationStore 127
+                                                                            - /home/sridharb_in_77/waslibertydemo/target/wlp/usr/servers/LibertyProjectServer/logs/ffdc/ffdc_17.01.20_06.39.02.0.log
+------+------+---------------------------+---------------------------+---------------------------
